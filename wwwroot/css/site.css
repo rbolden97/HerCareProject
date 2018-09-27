@@ -3,6 +3,7 @@ for details on configuring this project to bundle and minify static web assets. 
 body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background: rgb(249, 226, 237);
 }
 
 /* Wrapping element */
@@ -10,6 +11,7 @@ body {
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
+    padding-top: 50px;
 }
 
 /* Carousel */
@@ -34,4 +36,27 @@ body {
     .carousel-caption {
         display: none;
     }
+}
+.navbar-header {
+    height: 75px;
+    background-color: rgb(83, 81, 81);
+
+}
+
+.navbar-collapse {
+    background-color: rgb(83, 81, 81);
+
+}
+.navbar-inverse{
+    background-color: rgb(83, 81, 81) !important;
+    border-bottom-color: rgb(83, 81, 81);
+
+}
+.navbar-fixed-top{
+    background-color: rgb(83, 81, 81);
+
+}
+.navbar{
+    background-color: rgb(83, 81, 81);
+
 }
