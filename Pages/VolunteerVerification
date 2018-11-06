@@ -8,8 +8,7 @@
 <html>
     <head>
         <meta name="viewport" content="width-device-width"/>
-        <title>VolunteerVerification
-        </title>
+        <title>VolunteerVerification</title>
         <link rel="site" href="~/css/site.css" /> 
     </head>
     <body>
