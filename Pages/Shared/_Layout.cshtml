@@ -43,13 +43,28 @@
 
     <partial name="_CookieConsentPartial" />
 
+
     <div class="container body-content">
-        @RenderBody()
-        <hr />
-        <footer>
+        <table border="1" width="100%" align="center">
+            <tr>
+                <td>
+                    @RenderBody()
+                </td>
+            </tr>
             
-            <p>&copy; 2018 - HerCare</p>
-        </footer>
+        <hr />
+        
+        
+            <tr align="center">
+                <td>
+                <footer>
+                     <p>&copy; 2018 - HerCare</p>
+                </footer>     
+                </td>
+            </tr>
+           
+        
+        </table>
     </div>
 
     <environment include="Development">
