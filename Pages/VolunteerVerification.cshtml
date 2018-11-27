@@ -1,5 +1,5 @@
 @page
-
+@model her_care.Models.volunteerVerification
 @{
     ViewData["Title"] = "Volunteer Verification";
 }
@@ -18,7 +18,7 @@
                 <a asp-page="/Cohort">Click here for the cohort page</a> || 
                   <a asp-page="/AdministrationPortal">Click here for Administration Page</a>
         </nav> -->
-<!--
+
 <div class="panel panel-success">
         <div class"panel-heading text-center"> 
         <div class="panel-body">
@@ -82,9 +82,11 @@
                      <label asp-for="VolunteerSignatureBox">By Clicking This Box I Verify that I have Completed The Volunteer Hours As Stated </label>
                     <input type="checkbox" name="VolunteerSignatureBox" value="VolunteerSignatureBox"/>
                 </div>
+                <button type="submit" class="btn btn-submit">Submit</button>
             </form>
+            
             </div>
         </div>    
-        -->
+        
     </body>
 </html>
